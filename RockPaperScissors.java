@@ -1,5 +1,6 @@
 package LearnJava;
-import java.util.*;
+import java.util.Scanner;
+import java.util.Random;
 
 public class RockPaperScissors {
     public static void main(String[] args) {
