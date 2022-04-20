@@ -28,7 +28,7 @@ public class Operator {
 
             // !(x<y && x==y) --> False
         System.out.println(56>23 && 56<23);
-        System.out.println(56>23 || 12>51);
+        // System.out.println(56>23 || 12>51);
         System.out.println(!(56>23 && 56<223));
 
         //Bitwise Operator work on bits
