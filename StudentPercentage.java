@@ -17,5 +17,6 @@ public class StudentPercentage {
 
         float per = (float)((Html + C + CSS + JS + Java)/5);
         System.out.print("Percentage = "+ per);
+        sc.close();
     }
 }

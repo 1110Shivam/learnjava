@@ -33,6 +33,8 @@ public class TakingInput {
         System.out.println(str);
         String str1 = sc.nextLine();
         System.out.println(str1);
+        
 
+        sc.close();
     }
 }

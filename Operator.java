@@ -32,5 +32,6 @@ public class Operator {
         System.out.println(!(56>23 && 56<223));
 
         //Bitwise Operator work on bits
+
     }
 }

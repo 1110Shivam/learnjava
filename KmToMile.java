@@ -8,5 +8,7 @@ public class KmToMile {
         float Km = sc.nextFloat();
         float Mi = (float)(Km * 0.62137);
         System.out.print("Miles = "+ Mi);
+
+        sc.close();
     }
 }

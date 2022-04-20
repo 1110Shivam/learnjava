@@ -10,6 +10,8 @@ public class RockPaperScissors {
         System.out.print("Enter 1 for rock, 2 for paper, 3 for scissors = ");
         int user = sc.nextInt();
 
+        sc.close();
+
         if((user == 1 && com == 1)||(user == 2 && com == 2)||(user == 3 && com == 3)){
             System.out.println("Game drawn.");;
         }
@@ -19,5 +21,6 @@ public class RockPaperScissors {
         else
             System.out.println("You Win.");
         System.out.println("computer entered = " + com);
+        sc.close();
     }
 }
